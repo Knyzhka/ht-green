@@ -1,0 +1,157 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: rgb(83, 76, 71);
+    background-image: url(images/bg800bulbs.jpg);
+    background-position: left top;
+    background-repeat: no-repeat;
+}
+
+main {
+    background-color: white;
+    margin: auto;
+    font-family: 'Roboto', sans-serif;
+    border-radius: 10px;
+    max-width: 50vw;
+}
+
+header {
+    background-color: white;
+    max-width: 50vw;
+    margin: auto;
+    margin-top: 3.125rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1.875rem 1.875rem 1.25rem 1.25rem;
+    border-radius: 10px 10px 0 0;
+}
+
+li,
+a,
+button {
+    font-weight: 500;
+    font-size: 1rem;
+    text-decoration: none;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.logo {
+    width: 50px;
+}
+
+.nav-links {
+    list-style: none;
+}
+
+.nav-links li {
+    display: inline-block;
+    padding: 0 1.25rem;
+}
+
+.nav-links li a {
+    transition: all 0.3s ease 0s;
+}
+
+.nav-links li a:hover {
+    color: rgb(185, 105, 45);
+}
+
+.logo1 {
+    max-width: 100%;
+    max-height: 100%;
+    border-bottom: 3px solid rgb(83, 76, 71);
+}
+
+.art1,
+.art2,
+.art3,
+.art4,
+.art5 {
+    max-width: 960px;
+    margin: 1.25rem;
+    margin-top: 1.25rem;
+    margin-bottom: 3.125rem;
+    padding: 0.625rem;
+    font-weight: 100;
+    font-size: 0.875rem;
+    line-height: 20px;
+    overflow: hidden
+}
+
+.art1>p,
+.art2>p,
+.art3>p,
+.art4>p,
+.art5>p {
+    margin-top: 1.4rem;
+}
+
+.art1>h2,
+.art2>h2,
+.art3>h2,
+.art4>h2,
+.art5>h2 {
+    margin-bottom: 0.4rem;
+}
+
+.art1>h2 {
+    font-size: 1.5rem;
+}
+
+.art2>img,
+.art3>img,
+.art4>img {
+    float: right;
+    margin: 0.625rem;
+}
+
+.button {
+    margin: 3.75rem;
+    text-align: center;
+    position: relative;
+}
+
+button {
+    padding: 0.563rem 1.563rem;
+    background-color: lightgrey;
+    border: 2px solid black;
+    border-radius: 50px;
+    cursor: pointer;
+    width: 250px;
+}
+
+button:hover {
+    background-color: rgb(185, 105, 45);
+}
+
+.art6 {
+    padding: 0.625rem;
+    margin: 1.25rem 1.25rem 2.5rem 1.25rem;
+    border: 2px solid rgb(176, 210, 203);
+    border-left: 8px solid rgb(176, 210, 203);
+    background-color: rgb(248, 255, 254);
+    overflow: hidden
+}
+
+.testimonials {
+    margin: 1.25rem 0 0 1.875rem;
+    font-size: 1.375rem;
+}
+
+.art6>img {
+    float: left;
+    margin-right: 1.25rem;
+}
+
+footer {
+    background-color: rgb(185, 105, 45);
+    padding: 2rem;
+    margin-top: 2rem;
+    border-radius: 0 0 10px 10px;
+    margin-bottom: 12.5rem;
+}
